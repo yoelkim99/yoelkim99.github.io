@@ -8,6 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Ph.D. candidate</p>
     <p><a href="https://sselab.knu.ac.kr/">Software Safety Engineering Lab</a></p>
     <p><a href="https://computer.knu.ac.kr/">School of Computer Science and Engineering</a></p>
     <p><a href="https://knu.ac.kr/">Kyungpook National University</a></p>
