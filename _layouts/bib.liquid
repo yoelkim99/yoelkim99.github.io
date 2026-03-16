@@ -3,17 +3,18 @@
 <div class="row align-items-start">
   <div class="col-auto abbr pr-2">
     {%- if entry.abbr -%}
-      {%- if site.data.venues[entry.abbr] -%}
+      {% assign venue_key = entry.abbr | replace: "’", "'" | replace: "‘", "'" %}
+      {%- if site.data.venues[venue_key] -%}
         {% assign venue_style = 'min-width: 96px; color: #111;' %}
-        {% if site.data.venues[entry.abbr].color != blank %}
-          {% assign venue_style = venue_style | append: ' background-color: ' | append: site.data.venues[entry.abbr].color | append: '; color: #fff;' %}
+        {% if site.data.venues[venue_key].color != blank %}
+          {% assign venue_style = venue_style | append: ' background-color: ' | append: site.data.venues[venue_key].color | append: '; color: #fff;' %}
         {%- endif -%}
         <abbr
           class="badge rounded"
           style="{{ venue_style }}"
         >
-          {% if site.data.venues[entry.abbr].url %}
-            <a href="{{ site.data.venues[entry.abbr].url }}" style="color: inherit;">{{ entry.abbr }}</a>
+          {% if site.data.venues[venue_key].url %}
+            <a href="{{ site.data.venues[venue_key].url }}" style="color: inherit;">{{ entry.abbr }}</a>
           {% else %}
             <div>{{- entry.abbr -}}</div>
           {% endif %}
