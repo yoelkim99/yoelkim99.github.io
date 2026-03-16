@@ -7,11 +7,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-more_info: >
-  <p><a href="https://sselab.knu.ac.kr/">Software Safety Engineering Lab</a></p>
-  <p><a href="https://computer.knu.ac.kr/">School of Computer Science and Engineering</a></p>
-  <p><a href="https://knu.ac.kr/">Kyungpook National University</a></p>
-
+  more_info: >
+    <p><a href="https://sselab.knu.ac.kr/">Software Safety Engineering Lab</a></p>
+    <p><a href="https://computer.knu.ac.kr/">School of Computer Science and Engineering</a></p>
+    <p><a href="https://knu.ac.kr/">Kyungpook National University</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
