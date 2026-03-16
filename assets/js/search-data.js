@@ -362,7 +362,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-paper-was-accepted-to-fse-2026",
+            },},{id: "news-my-website-is-now-live",
+          title: 'My website is now live.',
+          description: "",
+          section: "News",},{id: "news-my-paper-was-accepted-to-fse-2026",
           title: 'My paper was accepted to FSE 2026.',
           description: "",
           section: "News",},{id: "projects-project-1",
