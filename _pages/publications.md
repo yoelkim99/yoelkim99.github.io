@@ -8,9 +8,6 @@ nav_order: 2
 ---
 
 <div class="publications">
-  <h2>Journals</h2>
-  <p>No journal papers listed yet.</p>
-
   <h2>International Conferences</h2>
   {% bibliography --group_by none --query @*[pubtype=international-conference]* %}
 
