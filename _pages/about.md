@@ -12,14 +12,13 @@ profile:
     <p>Kyungpook National University</p>
     <p>Ph.D. Student, advised by Yunja Choi</p>
     <p>GitHub: <a href="https://github.com/yoelkim99">yoelkim99</a></p>
-    <p><a href="/assets/pdf/CV.pdf">Download CV</a></p>
-    <p><a href="/assets/pdf/FSE_2024_slides.pdf">FSE 2024 slides</a></p>
+    <p><a href="https://scholar.google.com/citations?hl=en&user=QcT9uJsAAAAJ">Google Scholar</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 3 # leave blank to include all the news in the `_news` folder
 
@@ -35,4 +34,4 @@ My recent work focuses on the scalability of formal verification. In particular,
 
 Currently, I am especially interested in data-assisted abstractions that leverage dynamic information such as test executions and system logs to guide and optimize the abstraction process.
 
-You can find more details in my [CV](/assets/pdf/CV.pdf), [Google Scholar](https://scholar.google.com/citations?hl=en&user=QcT9uJsAAAAJ), and [FSE 2024 slides](/assets/pdf/FSE_2024_slides.pdf).
+You can find more details on [Google Scholar](https://scholar.google.com/citations?hl=en&user=QcT9uJsAAAAJ).
