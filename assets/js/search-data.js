@@ -425,13 +425,6 @@ ninja.data = [{
           window.open("/assets/pdf/CV.pdf", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/yoelkim99", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
