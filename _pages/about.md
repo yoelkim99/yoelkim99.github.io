@@ -2,18 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research, projects, and notes.
+subtitle: Ph.D. student in Computer Science and Engineering at Kyungpook National University.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Kyungpook National University</p>
+    <p>Ph.D. Student, advised by Yunja Choi</p>
     <p>GitHub: <a href="https://github.com/yoelkim99">yoelkim99</a></p>
     <p><a href="/assets/pdf/CV.pdf">Download CV</a></p>
     <p><a href="/assets/pdf/FSE_2024_slides.pdf">FSE 2024 slides</a></p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,8 +29,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-This site is now running on the [al-folio](https://github.com/alshedivat/al-folio) template and is ready for your personal content.
+I am a Ph.D. student in Computer Science and Engineering at Kyungpook National University, advised by Yunja Choi. My long-term research vision is to make formal verification practical and move us closer to error-free software.
 
-Start by replacing this short introduction with your own bio, research interests, and current role. A good next step is to swap in your own profile image at `assets/img/prof_pic.jpg`.
+My recent work focuses on the scalability of formal verification. In particular, I design abstraction techniques that automatically construct software models that are easier to verify efficiently.
 
-Useful links are already wired up for your [CV](/assets/pdf/CV.pdf) and [FSE 2024 slides](/assets/pdf/FSE_2024_slides.pdf). You can keep expanding from here by editing `_pages/about.md`, `_data/socials.yml`, and `_config.yml`.
+Currently, I am especially interested in data-assisted abstractions that leverage dynamic information such as test executions and system logs to guide and optimize the abstraction process.
+
+You can find more details in my [CV](/assets/pdf/CV.pdf), [Google Scholar](https://scholar.google.com/citations?hl=en&user=QcT9uJsAAAAJ), and [FSE 2024 slides](/assets/pdf/FSE_2024_slides.pdf).
