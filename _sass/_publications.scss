@@ -49,6 +49,7 @@
         abbr {
           display: inline-block;
           margin-bottom: 0.5rem;
+          color: inherit !important;
 
           a {
             color: inherit;
@@ -56,6 +57,10 @@
             &:hover {
               text-decoration: none;
             }
+          }
+
+          span {
+            color: inherit !important;
           }
         }
 

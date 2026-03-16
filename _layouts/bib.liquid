@@ -5,22 +5,24 @@
     {%- if entry.abbr -%}
       {% assign venue_key = entry.abbr | replace: "’", "'" | replace: "‘", "'" %}
       {%- if site.data.venues[venue_key] -%}
-        {% assign venue_style = 'min-width: 96px; color: #111;' %}
+        {% assign venue_style = 'min-width: 96px; color: #111 !important; background-color: #e5e7eb !important;' %}
         {% if site.data.venues[venue_key].color != blank %}
-          {% assign venue_style = venue_style | append: ' background-color: ' | append: site.data.venues[venue_key].color | append: '; color: #fff;' %}
+          {% assign venue_style = 'min-width: 96px; background-color: ' | append: site.data.venues[venue_key].color | append: ' !important; color: #fff !important; border-color: ' | append: site.data.venues[venue_key].color | append: ' !important;' %}
         {%- endif -%}
         <abbr
           class="badge rounded"
           style="{{ venue_style }}"
         >
           {% if site.data.venues[venue_key].url %}
-            <a href="{{ site.data.venues[venue_key].url }}" style="color: inherit;">{{ entry.abbr }}</a>
+            <a href="{{ site.data.venues[venue_key].url }}" style="color: inherit !important;">{{ entry.abbr }}</a>
           {% else %}
-            <div>{{- entry.abbr -}}</div>
+            <span style="color: inherit !important;">{{- entry.abbr -}}</span>
           {% endif %}
         </abbr>
       {% else %}
-        <abbr class="badge rounded" style="min-width: 96px; color: #111;">{{ entry.abbr }}</abbr>
+        <abbr class="badge rounded" style="min-width: 96px; background-color: #e5e7eb !important; color: #111 !important;">
+          <span style="color: inherit !important;">{{ entry.abbr }}</span>
+        </abbr>
       {% endif %}
     {% endif %}
     {% if site.enable_publication_thumbnails and entry.preview %}
