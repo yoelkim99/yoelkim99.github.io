@@ -363,7 +363,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-my-personal-website-is-now-live",
-          title: 'My personal website is now live.',
+          title: 'My personal website is now live!',
           description: "",
           section: "News",},{id: "news-my-paper-active-learning-of-symbolic-automata-for-reactive-programs-via-dynamic-symbolic-mapper-was-accepted-to-fse-2026",
           title: 'My paper “Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic...',
