@@ -4,25 +4,22 @@
   <div class="col-auto abbr pr-2">
     {%- if entry.abbr -%}
       {%- if site.data.venues[entry.abbr] -%}
-        {% assign venue_style = null %}
+        {% assign venue_style = 'min-width: 96px; color: #111;' %}
         {% if site.data.venues[entry.abbr].color != blank %}
-          {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+          {% assign venue_style = venue_style | append: ' background-color: ' | append: site.data.venues[entry.abbr].color | append: '; color: #fff;' %}
         {%- endif -%}
         <abbr
           class="badge rounded"
-          style="min-width: 96px;"
-          {% if venue_style %}
-            {{ venue_style }}
-          {% endif -%}
+          style="{{ venue_style }}"
         >
           {% if site.data.venues[entry.abbr].url %}
-            <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+            <a href="{{ site.data.venues[entry.abbr].url }}" style="color: inherit;">{{ entry.abbr }}</a>
           {% else %}
             <div>{{- entry.abbr -}}</div>
           {% endif %}
         </abbr>
       {% else %}
-        <abbr class="badge rounded" style="min-width: 96px;">{{ entry.abbr }}</abbr>
+        <abbr class="badge rounded" style="min-width: 96px; color: #111;">{{ entry.abbr }}</abbr>
       {% endif %}
     {% endif %}
     {% if site.enable_publication_thumbnails and entry.preview %}
