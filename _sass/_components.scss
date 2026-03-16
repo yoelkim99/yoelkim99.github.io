@@ -57,11 +57,11 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: auto;
-  max-width: 340px;
+  max-width: 355px;
 
   .profile-image {
-    width: 175px;
-    max-width: 175px;
+    width: 190px;
+    max-width: 190px;
   }
 
   .more-info {
@@ -99,9 +99,9 @@ ul.task-list input[type="checkbox"] {
     float: none !important;
 
     .profile-image {
-      width: 88px;
-      max-width: 88px;
-      flex: 0 0 88px;
+      width: 96px;
+      max-width: 96px;
+      flex: 0 0 96px;
     }
 
     .more-info {
@@ -123,7 +123,7 @@ ul.task-list input[type="checkbox"] {
 @media (min-width: 576px) {
   .profile {
     width: auto;
-    max-width: 340px;
+    max-width: 355px;
     display: block;
 
     .more-info {
