@@ -7,9 +7,9 @@ nav_order: 2
 ---
 
 <div class="publications">
-  <h2>International Conferences</h2>
+  <h3>International Conferences</h3>
   {% bibliography --group_by none --query @*[pubtype=international-conference]* %}
 
-  <h2>Domestic Conferences</h2>
+  <h3>Domestic Conferences</h3>
   {% bibliography --group_by none --query @*[pubtype=domestic-conference]* %}
 </div>
