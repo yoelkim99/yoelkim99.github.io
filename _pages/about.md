@@ -22,10 +22,6 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a Ph.D. candidate in the School of Computer Science and Engineering at Kyungpook National University, advised by [Yunja Choi](https://sselab.knu.ac.kr/). My long-term research vision is to make formal verification practical and move us closer to error-free software.
+Yoel Kim is a Ph.D. candidate in Computer Science and Engineering at Kyungpook National University, South Korea, under the supervision of Prof. [Yunja Choi](https://sselab.knu.ac.kr/). His research focuses on software engineering and formal methods, particularly abstraction techniques for modeling, analyzing, and verifying embedded software.
 
-My recent work focuses on the scalability of formal verification. In particular, I design abstraction techniques that automatically construct software models that are easier to verify efficiently.
-
-Currently, I am especially interested in data-assisted abstractions that leverage dynamic information such as test executions and system logs to guide and optimize the abstraction process.
-
-You can find more details on [LinkedIn](https://www.linkedin.com/in/yoel-kim-099a99189/), [CV](/assets/pdf/CV.pdf), and [Google Scholar](https://scholar.google.com/citations?hl=en&user=QcT9uJsAAAAJ).
+Currently, I am especially interested in data-assisted abstractions that leverage dynamic information such as test executions and system logs to guide and optimize the abstraction process. You can find more details on [LinkedIn](https://www.linkedin.com/in/yoel-kim-099a99189/), [CV](/assets/pdf/CV.pdf), and [Google Scholar](https://scholar.google.com/citations?hl=en&user=QcT9uJsAAAAJ).
