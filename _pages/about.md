@@ -22,8 +22,6 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-Yoel Kim is a Ph.D. candidate in Computer Science and Engineering at Kyungpook National University, South Korea, under the supervision of Prof. [Yunja Choi](https://sselab.knu.ac.kr/). His research focuses on software engineering problems in embedded software, particularly functional behavior and control logic, using techniques from formal methods and programming languages.
-
-He is especially interested in abstraction techniques that leverage dynamic information, such as test executions and system logs, to construct and refine useful representations of program behavior for formal verification and formal specification mining.
+Yoel Kim is a Ph.D. candidate in Computer Science and Engineering at Kyungpook National University, South Korea, under the supervision of Prof. [Yunja Choi](https://sselab.knu.ac.kr/). His research addresses software engineering problems in embedded software using techniques from formal methods and programming languages. His work focuses on abstraction techniques for modeling, analyzing, and verifying software behavior and control logic. He is especially interested in abstraction techniques that leverage dynamic information, such as test executions and system logs, to construct and refine useful representations of program behavior for formal verification and formal specification mining.
 
 More details are available on [LinkedIn](https://www.linkedin.com/in/%EC%9A%94%EC%97%98-%EA%B9%80-099a99189/?locale=en-US/), [CV](/assets/pdf/CV.pdf), and [Google Scholar](https://scholar.google.com/citations?hl=en&user=QcT9uJsAAAAJ).
