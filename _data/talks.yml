@@ -3,6 +3,14 @@
 # Add pptx: filename.pptx to a talk to show a PPTX button.
 # Both fields are optional; fill in either or both to show their buttons.
 # Set event to the displayed venue name and url to its official website.
+
+- title: Data-Driven Abstractions for Embedded Software
+  type: Doctoral Dissertation
+  event: School of Computer Science and Engineering, Kyungpook National University
+  date: "2026-11-30"
+  location: Daegu, Korea
+  pdf: 
+
 - title: Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic Mapper
   type: Top Conference Session
   event: KNU CSE BK21 Graduate Student Exchange Conference
@@ -126,6 +134,13 @@
   date: "2023-02-01"
   location: Paju, Korea
   pdf: ERC2023_2.pdf
+
+- title: An Automated Stub Generation Approach Using Program Synthesis for Software Verification
+  type: Master's Thesis Defense
+  event: School of Computer Science and Engineering, Kyungpook National University
+  date: "2022-11-29"
+  location: Daegu, Korea
+  pdf: ms_thesis_slides.pdf
 
 - title: Improving Model Checking Efficiency Using Program Synthesis and Counterexample Trace-Based Alarm Filtering
   type: Lightning Talk

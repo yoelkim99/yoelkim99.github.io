@@ -13,9 +13,12 @@ nav_order: 2
   <h3>International Journals</h3>
   {% bibliography --group_by none --query @*[pubtype=international-journal]* %}
 
+  <h3>Domestic Conferences</h3>
+  {% bibliography --group_by none --query @*[pubtype=domestic-conference]* %}
+
   <h3>Domestic Journals</h3>
   {% bibliography --group_by none --query @*[pubtype=domestic-journal]* %}
 
-  <h3>Domestic Conferences</h3>
-  {% bibliography --group_by none --query @*[pubtype=domestic-conference]* %}
+  <h3>Thesis</h3>
+  {% bibliography --group_by none --query @*[pubtype=thesis]* %}
 </div>
