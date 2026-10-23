@@ -6,7 +6,6 @@
 
 - title: Data-Driven Abstractions for Embedded Software
   type: Doctoral Dissertation
-  event: School of Computer Science and Engineering, Kyungpook National University
   date: "2026-11-30"
   location: Daegu, Korea
 
@@ -136,7 +135,6 @@
 
 - title: An Automated Stub Generation Approach Using Program Synthesis for Software Verification
   type: Master's Thesis
-  event: School of Computer Science and Engineering, Kyungpook National University
   date: "2022-11-29"
   location: Daegu, Korea
   pdf: ms_thesis_slides.pdf

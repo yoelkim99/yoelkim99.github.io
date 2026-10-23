@@ -2,7 +2,6 @@
 layout: page
 permalink: /talks/
 title: Talks
-description: Presentations at conferences and workshops.
 nav: true
 nav_order: 3
 ---
@@ -19,11 +18,14 @@ nav_order: 3
         <li>
           <div class="title">{{ talk.title | escape }}</div>
           <div class="periodical">
-            {{ talk.type | escape }} ·
-            {% if talk.url != blank %}
-              <a class="talk-venue" href="{{ talk.url | escape }}">{{ talk.event | escape }}</a>
-            {% else %}
-              <span class="talk-venue">{{ talk.event | escape }}</span>
+            {{ talk.type | escape }}
+            {% if talk.event != blank %}
+              {% if talk.type != blank %} · {% endif %}
+              {% if talk.url != blank %}
+                <a class="talk-venue" href="{{ talk.url | escape }}">{{ talk.event | escape }}</a>
+              {% else %}
+                <span>{{ talk.event | escape }}</span>
+              {% endif %}
             {% endif %}
           </div>
           <div class="periodical">

@@ -27,6 +27,15 @@
   url: https://ieeeaccess.ieee.org/
   color: "#7c3aed"
 
+"KTSDE":
+  color: "#0f766e"
+
+"Ph.D.":
+  color: "#0e7490"
+
+"M.S.":
+  color: "#0e7490"
+
 "KCSE'26":
   name: KCSE 2026
   url: https://kcse.sigsoft.or.kr/2026

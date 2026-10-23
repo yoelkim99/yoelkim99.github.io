@@ -38,8 +38,12 @@
     text-align: left;
   }
 
+  &.talks ol.bibliography .title {
+    font-weight: normal;
+  }
+
   .venue-classification,
-  .talk-venue {
+  a.talk-venue {
     color: var(--global-venue-color);
     font-weight: 600;
   }
