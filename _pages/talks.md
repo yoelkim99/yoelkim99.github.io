@@ -9,6 +9,7 @@ nav_order: 3
 
 {% assign talks = site.data.talks | sort: 'date' | reverse %}
 {% assign talk_years = talks | group_by_exp: 'talk', "talk.date | date: '%Y'" %}
+{% assign slide_formats = 'pdf,pptx' | split: ',' %}
 
 <div class="publications">
   {% for year in talk_years %}
@@ -21,14 +22,22 @@ nav_order: 3
           <div class="periodical">
             <time datetime="{{ talk.date }}">{{ talk.date | date: '%b %-d, %Y' }}</time> · {{ talk.location | escape }}
           </div>
-          {% if talk.pdf != blank %}
+          {% if talk.pdf != blank or talk.pptx != blank %}
             <div class="links">
-              {% if talk.pdf contains '://' %}
-                {% assign pdf_url = talk.pdf %}
-              {% else %}
-                {% assign pdf_url = talk.pdf | prepend: '/assets/pdf/' | relative_url %}
-              {% endif %}
-              <a href="{{ pdf_url | escape }}" class="btn btn-sm z-depth-0" aria-label="Presentation PDF: {{ talk.title | escape }}">PDF</a>
+              {% for slide_format in slide_formats %}
+                {% assign slide_file = talk[slide_format] %}
+                {% if slide_file != blank %}
+                  {% if slide_file contains '://' %}
+                    {% assign slide_url = slide_file %}
+                  {% else %}
+                    {% assign slide_directory = slide_format | prepend: '/assets/' | append: '/' %}
+                    {% assign slide_url = slide_file | prepend: slide_directory | relative_url %}
+                  {% endif %}
+                  <a href="{{ slide_url | escape }}" class="btn btn-sm z-depth-0" aria-label="Presentation {{ slide_format | upcase }}: {{ talk.title | escape }}">
+                    {{- slide_format | upcase -}}
+                  </a>
+                {% endif %}
+              {% endfor %}
             </div>
           {% endif %}
         </li>

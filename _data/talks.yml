@@ -1,5 +1,7 @@
 # For pdf, use a filename under assets/pdf/ or a full external URL.
-# Leave pdf empty when presentation slides are unavailable.
+# For pptx, use a filename under assets/pptx/ or a full external URL.
+# Add pptx: filename.pptx to a talk to show a PPTX button.
+# Both fields are optional; fill in either or both to show their buttons.
 - title: Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic Mapper
   type: Top Conference Session
   event: KNU CSE BK21 Graduate Student Exchange Conference
@@ -131,4 +133,4 @@
   event: KCSE'21
   date: "2021-02-02"
   location: Online
-  pdf:
+  pdf: KCSE_2021_slides.pdf
