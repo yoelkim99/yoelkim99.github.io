@@ -5,11 +5,10 @@
 # Set event to the displayed venue name and url to its official website.
 
 - title: Data-Driven Abstractions for Embedded Software
-  type: Doctoral Dissertation Defense
+  type: Doctoral Dissertation
   event: School of Computer Science and Engineering, Kyungpook National University
   date: "2026-11-30"
   location: Daegu, Korea
-  pdf: 
 
 - title: Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic Mapper
   type: Top Conference Session
@@ -136,7 +135,7 @@
   pdf: ERC2023_2.pdf
 
 - title: An Automated Stub Generation Approach Using Program Synthesis for Software Verification
-  type: Master's Thesis Defense
+  type: Master's Thesis
   event: School of Computer Science and Engineering, Kyungpook National University
   date: "2022-11-29"
   location: Daegu, Korea
