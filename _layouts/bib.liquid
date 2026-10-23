@@ -3,11 +3,16 @@
 <div class="row align-items-start">
   <div class="col-auto abbr pr-2">
     {%- if entry.abbr -%}
-      {% assign venue_key = entry.abbr | replace: "’", "'" | replace: "‘", "'" %}
+      {% assign venue_key = entry.abbr | replace: '’', "'" | replace: '‘', "'" %}
       {%- if site.data.venues[venue_key] -%}
         {% assign venue_style = 'min-width: 96px; color: #111 !important; background-color: #e5e7eb !important;' %}
         {% if site.data.venues[venue_key].color != blank %}
-          {% assign venue_style = 'min-width: 96px; background-color: ' | append: site.data.venues[venue_key].color | append: ' !important; color: #fff !important; border-color: ' | append: site.data.venues[venue_key].color | append: ' !important;' %}
+          {% assign venue_style = 'min-width: 96px; background-color: '
+            | append: site.data.venues[venue_key].color
+            | append: ' !important; color: #fff !important; border-color: '
+            | append: site.data.venues[venue_key].color
+            | append: ' !important;'
+          %}
         {%- endif -%}
         <abbr
           class="badge rounded"
@@ -84,10 +89,12 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <strong><u>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </u></strong>
+          <strong
+            ><u>
+              {{- author.first }}
+              {{ author_last_html -}}
+            </u></strong
+          >
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -373,7 +380,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
+      {% endhighlight %}
       </div>
     {% endif %}
 

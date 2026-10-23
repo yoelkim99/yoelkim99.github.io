@@ -1,0 +1,134 @@
+# For pdf, use a filename under assets/pdf/ or a full external URL.
+# Leave pdf empty when presentation slides are unavailable.
+- title: Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic Mapper
+  type: Top Conference Session
+  event: KNU CSE BK21 Graduate Student Exchange Conference
+  date: "2026-08-12"
+  location: Daegu, Korea
+  pdf:
+
+- title: Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic Mapper
+  type: Research Paper Presentation
+  event: FSE'26
+  date: "2026-07-07"
+  location: Concordia University, Montreal, Canada
+  pdf: FSE_2026_slides.pdf
+
+- title: "AutoCL: Active Learning of Symbolic Automata via Dynamic Symbolic Mapper"
+  type: Milestone Talk
+  event: 10th STAAR Winter Workshop
+  date: "2026-02-03"
+  location: Ulsan, Korea
+  pdf:
+
+- title: Active Learning of Symbolic Automata via Dynamic Symbolic Mapper
+  type: PhD Presentation Session
+  event: KNU CSE BK21 Graduate Student Exchange Conference
+  date: "2026-01-15"
+  location: Daegu, Korea
+  pdf:
+
+- title: "C2FSM: A Tool for Active Learning of Extended Finite State Machines from C Programs"
+  type: Milestone Talk
+  event: 9th STAAR Summer Workshop
+  date: "2025-07-29"
+  location: Korea University, Seoul, Korea
+  pdf:
+
+- title: "C2FSM: A Tool for Active Learning of Extended Finite State Machines from C Programs"
+  type: PhD Presentation Session
+  event: KNU CSE BK21 Graduate Student Exchange Conference
+  date: "2025-07-21"
+  location: Daegu, Korea
+  pdf:
+
+- title: PBE-Based Selective Abstraction and Refinement for Efficient Property Falsification of Embedded Software
+  type: Top Conference Session
+  event: KCC'25
+  date: "2025-07-04"
+  location: Jeju, Korea
+  pdf:
+
+- title: Efficient Active Model Learning using Program Synthesis
+  type: Lightning Talk
+  event: 8th STAAR Winter Workshop
+  date: "2025-02-07"
+  location: Yeosu, Korea
+  pdf:
+
+- title: PBE-Based Selective Abstraction and Refinement for Efficient Property Falsification of Embedded Software
+  type: Top Conference Session
+  event: KCSE'25
+  date: "2025-01-22"
+  location: Pyeongchang, Korea
+  pdf:
+
+- title: PBE-Based Selective Abstraction and Refinement for Efficient Property Falsification of Embedded Software
+  type: Top Conference Session
+  event: KNU CSE BK21 Graduate Student Exchange Conference
+  date: "2025-01-21"
+  location: Daegu, Korea
+  pdf:
+
+- title: PBE-Based Selective Abstraction and Refinement for Efficient Property Falsification of Embedded Software
+  type: Research Paper Presentation
+  event: FSE'24
+  date: "2024-07-17"
+  location: Porto de Galinhas, Ipojuca, Pernambuco, Brazil
+  pdf: FSE_2024_slides.pdf
+
+- title: PBE-Based Selective Abstraction and Refinement for Efficient Property Falsification of Embedded Software
+  type: Published Paper Session
+  event: 7th STAAR Summer Workshop
+  date: "2024-07-09"
+  location: Gyeongju, Korea
+  pdf:
+
+- title: Automatic Generation of Software Disaster Models via Active Learning
+  type: Lightning Talk
+  event: 6th STAAR Winter Workshop
+  date: "2024-01-30"
+  location: KAIST, Daejeon, Korea
+  pdf:
+
+- title: PBE-Based Function Summarization and Refinement for Efficient Property Falsification
+  type: Lightning Talk
+  event: 5th STAAR Summer Workshop
+  date: "2023-07-05"
+  location: Ulsan, Korea
+  pdf:
+
+- title: An Approach of Incremental Constraint Extraction Based on I/O Examples for Automatic Stub Generation
+  type: Research Paper Presentation
+  event: KCSE'23
+  date: "2023-02-10"
+  location: Pyeongchang, Korea
+  pdf:
+
+- title: PBE-Based Automatic Stub Generation and Stub Code Partitioning for Efficient Model Checking
+  type: Lightning Talk
+  event: 4th STAAR Winter Workshop
+  date: "2023-02-01"
+  location: Paju, Korea
+  pdf:
+
+- title: Improving Model Checking Efficiency Using Program Synthesis and Counterexample Trace-Based Alarm Filtering
+  type: Lightning Talk
+  event: 3rd STAAR Summer Workshop
+  date: "2022-07-14"
+  location: Pohang, Korea
+  pdf:
+
+- title: A Case Study to Improve the Efficiency of Model Checking in Embedded Software Using Program Synthesis
+  type: Research Paper Presentation
+  event: KSC'21
+  date: "2021-12-21"
+  location: Pyeongchang, Korea
+  pdf:
+
+- title: A Case Study on the Performance of Program Synthesis in Embedded Software Domain
+  type: Research Paper Presentation
+  event: KCSE'21
+  date: "2021-02-02"
+  location: Online
+  pdf:
