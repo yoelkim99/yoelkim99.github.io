@@ -93,7 +93,7 @@
   url: https://staar2021.github.io/7th_Workshop/07_Workshop.html
   date: "2024-07-09"
   location: Gyeongju, Korea
-  pdf:
+  pdf: ERC2024_7.pdf
 
 - title: Automatic Generation of Software Disaster Models via Active Learning
   type: Lightning Talk
