@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "Presentations at conferences, workshops, and graduate research events.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -365,8 +372,8 @@ ninja.data = [{
             },},{id: "news-my-personal-website-is-now-live",
           title: 'My personal website is now live!',
           description: "",
-          section: "News",},{id: "news-my-paper-active-learning-of-symbolic-automata-for-reactive-programs-via-dynamic-symbolic-mapper-was-accepted-to-fse-2026",
-          title: 'My paper “Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic...',
+          section: "News",},{id: "news-our-paper-active-learning-of-symbolic-automata-for-reactive-programs-via-dynamic-symbolic-mapper-was-accepted-to-fse-2026",
+          title: 'Our paper “Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -442,7 +449,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/yoel-kim-099a99189", "_blank");
+          window.open("https://www.linkedin.com/in/%EC%9A%94%EC%97%98-%EA%B9%80-099a99189/?isSelfProfile=true&locale=en-US", "_blank");
         },
       },{
         id: 'social-scholar',
