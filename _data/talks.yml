@@ -2,16 +2,18 @@
 # For pptx, use a filename under assets/pptx/ or a full external URL.
 # Add pptx: filename.pptx to a talk to show a PPTX button.
 # Both fields are optional; fill in either or both to show their buttons.
+# Set event to the displayed venue name and url to its official website.
 - title: Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic Mapper
   type: Top Conference Session
   event: KNU CSE BK21 Graduate Student Exchange Conference
   date: "2026-08-12"
   location: Daegu, Korea
-  pdf:
+  pdf: FSE_2026_slides.pdf
 
 - title: Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic Mapper
   type: Research Paper Presentation
-  event: FSE'26
+  event: FSE 2026
+  url: https://conf.researchr.org/home/fse-2026
   date: "2026-07-07"
   location: Concordia University, Montreal, Canada
   pdf: FSE_2026_slides.pdf
@@ -19,62 +21,68 @@
 - title: "AutoCL: Active Learning of Symbolic Automata via Dynamic Symbolic Mapper"
   type: Milestone Talk
   event: 10th STAAR Winter Workshop
+  url: https://staar2021.github.io/10th_Workshop/10_Workshop.html
   date: "2026-02-03"
   location: Ulsan, Korea
-  pdf:
+  pdf: ERC2026_2.pdf
 
 - title: Active Learning of Symbolic Automata via Dynamic Symbolic Mapper
   type: PhD Presentation Session
   event: KNU CSE BK21 Graduate Student Exchange Conference
   date: "2026-01-15"
   location: Daegu, Korea
-  pdf:
+  pdf: KNU2026.pdf
 
 - title: "C2FSM: A Tool for Active Learning of Extended Finite State Machines from C Programs"
   type: Milestone Talk
   event: 9th STAAR Summer Workshop
+  url: https://staar2021.github.io/9th_Workshop/09_Workshop.html
   date: "2025-07-29"
   location: Korea University, Seoul, Korea
-  pdf:
+  pdf: ERC2025_7.pdf
 
 - title: "C2FSM: A Tool for Active Learning of Extended Finite State Machines from C Programs"
   type: PhD Presentation Session
   event: KNU CSE BK21 Graduate Student Exchange Conference
   date: "2025-07-21"
   location: Daegu, Korea
-  pdf:
+  pdf: ERC2025_7.pdf
 
 - title: PBE-Based Selective Abstraction and Refinement for Efficient Property Falsification of Embedded Software
   type: Top Conference Session
-  event: KCC'25
+  event: KCC 2025
+  url: https://www.kiise.or.kr/conference/kcc/2025/
   date: "2025-07-04"
   location: Jeju, Korea
-  pdf:
+  pdf: FSE_2024_slides.pdf
 
 - title: Efficient Active Model Learning using Program Synthesis
   type: Lightning Talk
   event: 8th STAAR Winter Workshop
+  url: https://staar2021.github.io/8th_Workshop/08_Workshop.html
   date: "2025-02-07"
   location: Yeosu, Korea
-  pdf:
+  pdf: ERC2025_2.pdf
 
 - title: PBE-Based Selective Abstraction and Refinement for Efficient Property Falsification of Embedded Software
   type: Top Conference Session
-  event: KCSE'25
+  event: KCSE 2025
+  url: https://sigsoft.or.kr/kcse2025/
   date: "2025-01-22"
   location: Pyeongchang, Korea
-  pdf:
+  pdf: FSE_2024_slides.pdf
 
 - title: PBE-Based Selective Abstraction and Refinement for Efficient Property Falsification of Embedded Software
   type: Top Conference Session
   event: KNU CSE BK21 Graduate Student Exchange Conference
   date: "2025-01-21"
   location: Daegu, Korea
-  pdf:
+  pdf: FSE_2024_slides.pdf
 
 - title: PBE-Based Selective Abstraction and Refinement for Efficient Property Falsification of Embedded Software
   type: Research Paper Presentation
-  event: FSE'24
+  event: FSE 2024
+  url: https://2024.esec-fse.org/
   date: "2024-07-17"
   location: Porto de Galinhas, Ipojuca, Pernambuco, Brazil
   pdf: FSE_2024_slides.pdf
@@ -82,6 +90,7 @@
 - title: PBE-Based Selective Abstraction and Refinement for Efficient Property Falsification of Embedded Software
   type: Published Paper Session
   event: 7th STAAR Summer Workshop
+  url: https://staar2021.github.io/7th_Workshop/07_Workshop.html
   date: "2024-07-09"
   location: Gyeongju, Korea
   pdf:
@@ -89,48 +98,55 @@
 - title: Automatic Generation of Software Disaster Models via Active Learning
   type: Lightning Talk
   event: 6th STAAR Winter Workshop
+  url: https://staar2021.github.io/6th_Workshop/06_Workshop.html
   date: "2024-01-30"
   location: KAIST, Daejeon, Korea
-  pdf:
+  pdf: ERC2024_1.pdf
 
 - title: PBE-Based Function Summarization and Refinement for Efficient Property Falsification
   type: Lightning Talk
   event: 5th STAAR Summer Workshop
+  url: https://staar2021.github.io/5th_Workshop/05_Workshop.html
   date: "2023-07-05"
   location: Ulsan, Korea
-  pdf:
+  pdf: ERC2023_7.pdf
 
 - title: An Approach of Incremental Constraint Extraction Based on I/O Examples for Automatic Stub Generation
   type: Research Paper Presentation
-  event: KCSE'23
+  event: KCSE 2023
+  url: https://sigsoft.or.kr/kcse2023/
   date: "2023-02-10"
   location: Pyeongchang, Korea
-  pdf:
+  pdf: KCSE2023_slides.pdf
 
 - title: PBE-Based Automatic Stub Generation and Stub Code Partitioning for Efficient Model Checking
   type: Lightning Talk
   event: 4th STAAR Winter Workshop
+  url: https://staar2021.github.io/4th_Workshop/04_Workshop.html
   date: "2023-02-01"
   location: Paju, Korea
-  pdf:
+  pdf: ERC2023_2.pdf
 
 - title: Improving Model Checking Efficiency Using Program Synthesis and Counterexample Trace-Based Alarm Filtering
   type: Lightning Talk
   event: 3rd STAAR Summer Workshop
+  url: https://staar2021.github.io/3rd_Workshop/03_Workshop.html
   date: "2022-07-14"
   location: Pohang, Korea
-  pdf:
+  pdf: ERC2022_7.pdf
 
 - title: A Case Study to Improve the Efficiency of Model Checking in Embedded Software Using Program Synthesis
   type: Research Paper Presentation
-  event: KSC'21
+  event: KSC 2021
+  url: https://www.kiise.or.kr/conference/KSC/2021/
   date: "2021-12-21"
   location: Pyeongchang, Korea
-  pdf:
+  pdf: KSC2021_slides.pdf
 
 - title: A Case Study on the Performance of Program Synthesis in Embedded Software Domain
   type: Research Paper Presentation
-  event: KCSE'21
+  event: KCSE 2021
+  url: https://sigsoft.or.kr/kcse2021/
   date: "2021-02-02"
   location: Online
   pdf: KCSE_2021_slides.pdf

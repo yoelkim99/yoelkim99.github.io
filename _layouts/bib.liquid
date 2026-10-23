@@ -189,9 +189,27 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.note != blank %}
+      <div class="publication-note">
+        {% assign note_parts = entry.note | split: '|' %}
+        {% for note_part in note_parts %}
+          {% assign note_text = note_part | strip %}
+          {% unless forloop.first -%}
+            <span class="note-separator">|</span>
+          {%- endunless %}
+          {% if note_text contains 'Top-tier' or note_text contains 'Major ' or note_text == 'SCIE' %}
+            <span class="venue-classification">
+              {% if note_text contains 'Top-tier' -%}
+                <span class="top-tier-star" aria-hidden="true">★</span>
+              {%- endif %}
+              {{- note_text -}}
+            </span>
+          {% else %}
+            <span>{{ note_text }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">

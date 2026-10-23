@@ -2,7 +2,7 @@
 layout: page
 permalink: /talks/
 title: Talks
-description: Presentations at conferences, workshops, and graduate research events.
+description: Presentations at conferences and workshops.
 nav: true
 nav_order: 3
 ---
@@ -11,14 +11,21 @@ nav_order: 3
 {% assign talk_years = talks | group_by_exp: 'talk', "talk.date | date: '%Y'" %}
 {% assign slide_formats = 'pdf,pptx' | split: ',' %}
 
-<div class="publications">
+<div class="publications talks">
   {% for year in talk_years %}
     <h2 class="bibliography">{{ year.name }}</h2>
     <ol class="bibliography">
       {% for talk in year.items %}
         <li>
           <div class="title">{{ talk.title | escape }}</div>
-          <div class="periodical">{{ talk.type | escape }} · <em>{{ talk.event | escape }}</em></div>
+          <div class="periodical">
+            {{ talk.type | escape }} ·
+            {% if talk.url != blank %}
+              <a class="talk-venue" href="{{ talk.url | escape }}">{{ talk.event | escape }}</a>
+            {% else %}
+              <span class="talk-venue">{{ talk.event | escape }}</span>
+            {% endif %}
+          </div>
           <div class="periodical">
             <time datetime="{{ talk.date }}">{{ talk.date | date: '%b %-d, %Y' }}</time> · {{ talk.location | escape }}
           </div>

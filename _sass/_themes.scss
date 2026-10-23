@@ -10,6 +10,8 @@
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
   --global-text-color-light: #{v.$grey-color};
+  --global-venue-color: #245779;
+  --global-note-color: #5f6368;
   --global-theme-color: #{v.$purple-color};
   --global-hover-color: #{v.$purple-color};
   --global-hover-text-color: #{v.$white-color};
@@ -80,6 +82,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$grey-color-light};
   --global-text-color-light: #{v.$grey-color};
+  --global-venue-color: #91c9ed;
+  --global-note-color: #b8bec6;
   --global-theme-color: #{v.$cyan-color};
   --global-hover-color: #{v.$cyan-color};
   --global-hover-text-color: #{v.$white-color};

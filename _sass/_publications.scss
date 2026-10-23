@@ -31,6 +31,30 @@
     text-align: right;
   }
 
+  &.talks h2.bibliography {
+    color: var(--global-text-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .venue-classification,
+  .talk-venue {
+    color: var(--global-venue-color);
+    font-weight: 600;
+  }
+
+  a.talk-venue {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.15em;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration-color: currentColor;
+    }
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -72,6 +96,22 @@
 
       .title {
         font-weight: bolder;
+      }
+
+      .publication-note {
+        margin-top: 0.2rem;
+        color: var(--global-note-color);
+        font-size: 0.85rem;
+        line-height: 1.5;
+
+        .note-separator {
+          margin: 0 0.35em;
+        }
+
+        .top-tier-star {
+          margin-right: 0.3em;
+          color: #eab308;
+        }
       }
 
       .author {

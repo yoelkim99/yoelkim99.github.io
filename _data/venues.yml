@@ -9,19 +9,50 @@
   color: "#009f36"
 
 "FSE'26":
+  name: FSE 2026
+  url: https://conf.researchr.org/home/fse-2026
   color: "#1d4ed8"
 
 "FSE'24":
+  name: FSE 2024
+  url: https://2024.esec-fse.org/
   color: "#1d4ed8"
 
+"TACAS'27":
+  name: TACAS 2027
+  url: https://etaps.org/2027/conferences/tacas/
+  color: "#1d4ed8"
+
+"IEEE Access":
+  url: https://ieeeaccess.ieee.org/
+  color: "#0f766e"
+
 "KCSE'26":
+  name: KCSE 2026
+  url: https://kcse.sigsoft.or.kr/2026
   color: "#b45309"
 
 "KCSE'23":
+  name: KCSE 2023
+  url: https://sigsoft.or.kr/kcse2023/
   color: "#b45309"
 
 "KCSE'21":
+  name: KCSE 2021
+  url: https://sigsoft.or.kr/kcse2021/
   color: "#b45309"
 
 "KSC'21":
+  name: KSC 2021
+  url: https://www.kiise.or.kr/conference/KSC/2021/
+  color: "#b45309"
+
+"KCC'25":
+  name: KCC 2025
+  url: https://www.kiise.or.kr/conference/kcc/2025/
+  color: "#b45309"
+
+"KCSE'25":
+  name: KCSE 2025
+  url: https://sigsoft.or.kr/kcse2025/
   color: "#b45309"
