@@ -4,6 +4,12 @@
 
 @use "variables" as v;
 
+@media screen and (min-width: 992px) {
+  html {
+    zoom: 1.1;
+  }
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);

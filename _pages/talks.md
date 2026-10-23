@@ -40,8 +40,8 @@ nav_order: 3
                     {% assign slide_directory = slide_format | prepend: '/assets/' | append: '/' %}
                     {% assign slide_url = slide_file | prepend: slide_directory | relative_url %}
                   {% endif %}
-                  <a href="{{ slide_url | escape }}" class="btn btn-sm z-depth-0" aria-label="Presentation {{ slide_format | upcase }}: {{ talk.title | escape }}">
-                    {{- slide_format | upcase -}}
+                  <a href="{{ slide_url | escape }}" class="btn btn-sm z-depth-0" aria-label="Slides ({{ slide_format | upcase }}): {{ talk.title | escape }}">
+                    Slides{% if talk.pdf != blank and talk.pptx != blank %} ({{ slide_format | upcase }}){% endif %}
                   </a>
                 {% endif %}
               {% endfor %}
