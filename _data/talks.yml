@@ -5,7 +5,7 @@
 # Set event to the displayed venue name and url to its official website.
 
 - title: Data-Driven Abstractions for Embedded Software
-  type: Doctoral Dissertation
+  type: Doctoral Dissertation Defense
   date: "2026-11-30"
   location: Daegu, Korea
 
@@ -134,7 +134,7 @@
   pdf: ERC2023_2.pdf
 
 - title: An Automated Stub Generation Approach Using Program Synthesis for Software Verification
-  type: Master's Thesis
+  type: Master's Thesis Defense
   date: "2022-11-29"
   location: Daegu, Korea
   pdf: ms_thesis_slides.pdf
