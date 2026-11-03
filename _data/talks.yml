@@ -4,6 +4,14 @@
 # Both fields are optional; fill in either or both to show their buttons.
 # Set event to the displayed venue name and url to its official website.
 
+- title: Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic Mapper
+  type: Top Conference Session
+  event: KSC 2026
+  url: https://www.kiise.or.kr/conference/KSC/2026/
+  date: "2026-12-21"
+  location: Gyeongju, Korea
+  pdf: FSE_2026_slides.pdf
+
 - title: Data-Driven Abstractions for Embedded Software
   type: Doctoral Dissertation Defense
   date: "2026-11-30"
